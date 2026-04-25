@@ -57,8 +57,9 @@ if (result.disposable) {
 
 ```bash
 curl -H "X-API-Key: your_api_key" \
-  https://api.addrly.app/v1/validate/user@tempmail.com
+  https://api.addrly.app/email/user@tempmail.com
 ```
+
 
 ### PHP
 
