@@ -20,8 +20,8 @@
 
 | Language | Package | Install | Docs |
 |----------|---------|---------|------|
-| **Python** | [![PyPI](https://img.shields.io/pypi/v/addrly?color=3776AB&label=PyPI)](https://pypi.org/project/addrly/) | `pip install addrly` | [View →](https://github.com/addrly/addrly-python) |
-| **JavaScript** | [![npm](https://img.shields.io/npm/v/addrly?color=CB3837&label=npm)](https://www.npmjs.com/package/addrly) | `npm install addrly` | [View →](https://github.com/addrly/addrly-js) |
+| **Python** | [![PyPI](https://img.shields.io/pypi/v/addrly?color=3776AB&label=PyPI)](https://pypi.org/project/addrly/) | `pip install addrly` | [View →](https://github.com/addrlyq/addrly-python) |
+| **JavaScript** | [![npm](https://img.shields.io/npm/v/addrly?color=CB3837&label=npm)](https://www.npmjs.com/package/addrly) | `npm install addrly` | [View →](https://github.com/addrlyq/addrly-js) |
 | **PHP** | Coming soon | — | — |
 
 ---
