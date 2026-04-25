@@ -22,7 +22,7 @@
 |----------|---------|---------|------|
 | **Python** | [![PyPI](https://img.shields.io/pypi/v/addrly?color=3776AB&label=PyPI)](https://pypi.org/project/addrly/) | `pip install addrly` | [View →](https://github.com/addrlyq/addrly-python) |
 | **JavaScript** | [![npm](https://img.shields.io/npm/v/addrly?color=CB3837&label=npm)](https://www.npmjs.com/package/addrly) | `npm install addrly` | [View →](https://github.com/addrlyq/addrly-js) |
-| **PHP** | [![Packagist](https://img.shields.io/packagist/v/addrly/addrly-php?color=777BB4&label=Packagist)](https://packagist.org/packages/addrly/addrly-php) | `composer require addrly/addrly-php` | [View →](https://github.com/addrlyq/addrly-php) |
+| **PHP** | [![Packagist](https://img.shields.io/packagist/v/addrly/addrly-php?include_prereleases&color=777BB4&label=Packagist)](https://packagist.org/packages/addrly/addrly-php) | `composer require addrly/addrly-php` | [View →](https://github.com/addrlyq/addrly-php) |
 
 ---
 
@@ -58,6 +58,19 @@ if (result.disposable) {
 ```bash
 curl -H "X-API-Key: your_api_key" \
   https://api.addrly.app/v1/validate/user@tempmail.com
+```
+
+### PHP
+
+```php
+use Addrly\Addrly;
+
+$client = new Addrly('your_api_key');
+$result = $client->validate('user@tempmail.com');
+
+if ($result->disposable) {
+    echo 'Blocked: disposable email detected';
+}
 ```
 
 ---
