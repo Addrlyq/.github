@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://addrly.app/favicon.svg" alt="Addrly" width="80" height="80" />
+  <img src="https://addrly.io/favicon.svg" alt="Addrly" width="80" height="80" />
 </p>
 
 <h1 align="center">Addrly</h1>
